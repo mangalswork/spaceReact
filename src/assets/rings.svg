@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1031" height="1312" viewBox="0 0 1031 1312">
+    <defs>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="34.659%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <circle id="b" cx="660" cy="656" r="188"/>
+        <filter id="a" width="113.3%" height="113.3%" x="-6.6%" y="-5.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(-288)">
+        <ellipse cx="659.5" cy="655" stroke="#FEB17C" stroke-width="1.248" opacity=".2" rx="400.876" ry="398.376"/>
+        <ellipse cx="659.5" cy="655.5" stroke="#FEB17C" stroke-width="1.248" opacity=".1" rx="535.876" ry="532.876"/>
+        <ellipse cx="659.5" cy="656" stroke="#FEB17C" stroke-width="1.248" opacity=".05" rx="658.876" ry="655.376"/>
+        <circle cx="659.5" cy="655.5" r="249.876" stroke="#FEB17C" stroke-width="1.248" opacity=".3"/>
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#FEB17C" xlink:href="#b"/>
+        <use fill="url(#c)" fill-opacity=".4" style="mix-blend-mode:overlay" xlink:href="#b"/>
+        <circle cx="715" cy="411" r="4" fill="#FEB17C" opacity=".9"/>
+        <circle cx="518" cy="861" r="4" fill="#FEB17C" opacity=".9"/>
+        <circle cx="486" cy="297" r="4" fill="#FEB17C" opacity=".7"/>
+        <circle cx="996" cy="872" r="4" fill="#FEB17C" opacity=".7"/>
+        <circle cx="1123" cy="388" r="4" fill="#FEB17C" opacity=".4"/>
+    </g>
+</svg>

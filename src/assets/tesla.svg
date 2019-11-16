@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="165" height="22" viewBox="0 0 165 22">
+    <defs>
+        <linearGradient id="b" x1="17.881%" x2="62.002%" y1="49.236%" y2="50.199%">
+            <stop offset="0%" stop-color="#A7745A"/>
+            <stop offset="100%" stop-color="#A7745A" stop-opacity="0"/>
+        </linearGradient>
+        <path id="a" d="M40.916 13.028h15.74c2.21-.841 3.797-2.476 4.26-4.396h-24.27c.454 1.92 2.064 3.555 4.27 4.396zM0 .028c.47 1.936 2.074 3.54 4.265 4.389h6.613l.336.153V22h4.136V4.57l.376-.153h6.633c2.171-.85 3.764-2.453 4.243-4.389V0H0v.028zM40.916 21.97h15.74c2.21-.852 3.797-2.478 4.26-4.413h-24.27c.454 1.935 2.064 3.561 4.27 4.413zm0-17.487h15.74c2.21-.859 3.797-2.467 4.26-4.406h-24.27c.454 1.939 2.064 3.547 4.27 4.406zm104.157-.086h15.719C163 3.533 164.558 2.005 165 .067h-24.265c.433 1.938 2.129 3.466 4.338 4.33zm-19.05 17.437c2.032-.904 3.141-2.488 3.565-4.311h-18.16l.028-17.507-4.068.012v21.753l18.635.053zM76.803 4.34H91.33c2.172-.648 3.791-2.37 4.234-4.312H72.73v12.985h18.891v4.558h-14.62c-2.15.856-3.745 2.336-4.192 4.263L72.73 22h22.95V8.698H76.801V4.34zm64.723 4.244l22.92.032v13.297h-4.065v-8.878h-14.79v8.878h-4.065V8.584z"/>
+        <filter id="c" width="100.6%" height="104.5%" x="-.3%" y="-2.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+            <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#FFF" xlink:href="#a"/>
+        <use fill="url(#b)" fill-opacity=".3" xlink:href="#a"/>
+        <use fill="#000" filter="url(#c)" xlink:href="#a"/>
+    </g>
+</svg>
