@@ -165,7 +165,7 @@ function App() {
         </Row>
       </section>
 
-      <section className="sp-block-section sp-set-bg">
+      <section className="sp-block-section">
         <Row>
           <Col span={24}>
             <h1 className="sp-header-title text-left">
