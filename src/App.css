@@ -7,6 +7,57 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
+/* Common CSS start */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.sp-full-section {
+  padding: 60px 0px;
+}
+.sp-block-section {
+  padding: 60px 80px;
+}
+.sp-header-title {
+  font-size: 46px;
+  line-height: 56px;
+  color: white;
+  margin: 0px;
+  padding: 10px 50px;
+}
+.sp-full-section .sp-header-title {
+  padding: 10px 50px;
+}
+.sp-block-section .sp-header-title {
+  padding: 10px 0px;
+}
+.sp-inner-title {
+  font-size: 34px;
+  line-height: 42px;
+  color: white;
+  margin: 0px;
+  padding: 0px 0px 5px;
+}
+.sp-para-one {
+  font-size: 16px;
+  line-height: 26px;
+}
+.sp-para-two {
+  font-size: 14px;
+  line-height: 20px;
+}
+.sp-para-three {
+  font-size: 20px;
+  line-height: 28px;
+}
+/* Common CSS End */
+
 .sp-banner {
   width: 100%;
   min-height: 100vh;
@@ -30,35 +81,6 @@ body {
 }
 .sp-right-header ul li.first a {
   color: #ec495a;
-}
-.sp-section {
-  padding: 60px 0px;
-}
-.sp-header-title {
-  font-size: 46px;
-  line-height: 56px;
-  color: white;
-  margin: 0px;
-  padding: 0px 0px 10px;
-}
-.sp-inner-title {
-  font-size: 34px;
-  line-height: 42px;
-  color: white;
-  margin: 0px;
-  padding: 0px 0px 5px;
-}
-.sp-para-one {
-  font-size: 16px;
-  line-height: 26px;
-}
-.sp-para-two {
-  font-size: 14px;
-  line-height: 20px;
-}
-.sp-para-three {
-  font-size: 20px;
-  line-height: 28px;
 }
 ul.sp-flex-grid {
   margin: 0px;
@@ -96,7 +118,7 @@ ul.sp-flex-grid li img {
   padding: 200px 15px 30px;
 }
 .sp-banner-content {
-  padding-top: 80px;
+  padding: 80px 80px 0px;
 }
 .sp-banner-content .sp-label {
   font-size: 14px;
@@ -134,7 +156,6 @@ ul.sp-flex-grid li img {
 .sp-banner-content .sp-book-now {
   background: #ec495a;
   border-color: #ec495a;
-  padding: 15px 50px;
   font-size: 14px;
 }
 .sp-slider ul {
@@ -249,7 +270,6 @@ ul.sp-flex-grid li img {
   border-color: #2d293b;
   font-size: 14px;
   line-height: 14px;
-  padding: 10px 20px;
 }
 .sp-sbox2 {
   height: 280px;
@@ -307,7 +327,6 @@ ul.sp-flex-grid li img {
   border: solid 1px #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   text-transform: uppercase;
-  padding: 10px 40px;
 }
 .sp-spaced-details ul {
   display: flex;
@@ -359,6 +378,7 @@ ul.sp-flex-grid li img {
 footer.sp-footer {
   color: white;
   background: none;
+  padding-top: 100px;
 }
 .sp-footer .sp-footer-flex {
   display: flex;

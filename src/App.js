@@ -41,7 +41,7 @@ function App() {
         </Col>
       </section>
 
-      <section className="sp-section">
+      <section className="sp-full-section">
         <Row>
           <Col span={24}>
             <h1 className="sp-header-title">Available destinations</h1>
@@ -113,7 +113,7 @@ function App() {
         </div>
       </section>
 
-      <section className="sp-section">
+      <section className="sp-block-section">
         <Row>
           <Col span={24}>
             <h1 className="sp-header-title">Special programs for everyone</h1>
@@ -165,7 +165,7 @@ function App() {
         </Row>
       </section>
 
-      <section className="sp-section sp-set-bg">
+      <section className="sp-block-section sp-set-bg">
         <Row>
           <Col span={24}>
             <h1 className="sp-header-title text-left">
@@ -265,7 +265,7 @@ function App() {
         </Row>
       </section>
 
-      <section className="sp-section sp-tour-bg">
+      <section className="sp-block-section sp-tour-bg">
         <div className="sp-flex-container">
           <div className="sp-content">
             <h1 className="sp-header-title text-center">
@@ -280,7 +280,7 @@ function App() {
         </div>
       </section>
 
-      <section className="sp-section">
+      <section className="sp-block-section">
         <Row>
           <Col span={24}>
             <h1 className="sp-header-title text-center">
@@ -322,7 +322,7 @@ function App() {
         </Row>
       </section>
 
-      <section className="sp-section sp-proud-sec">
+      <section className="sp-block-section sp-proud-sec">
         <Row>
           <Col span={16}>
             <h1 className="sp-header-title">
